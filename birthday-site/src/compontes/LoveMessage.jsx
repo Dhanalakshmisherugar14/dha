@@ -39,7 +39,7 @@ const LoveMessage = () => {
             Happy Birthday
           </h1>
           <p className="font-handwriting text-4xl md:text-6xl text-amber-400">
-            My Love! 💕
+            My Love! 💕 Dhanush
           </p>
         </div>
 

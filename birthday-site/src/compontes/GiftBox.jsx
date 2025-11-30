@@ -128,10 +128,10 @@ const GiftBox = ({ onOpen }) => {
       {/* Click instruction */}
       {!isOpened && (
         <div className="mt-10 text-center">
-          <p className="font-serif text-3xl md:text-4xl text-blue-600 animate-bounce-soft">
+          <p className="font-serif text-3xl md:text-4xl text-yellow-600 animate-bounce-soft">
             Tap to open your surprise!
           </p>
-          <p className="font-serif text-lg text-red-600 mt-2 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
+          <p className="font-serif text-lg text-yellow-600 mt-2 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
             Something special awaits inside... 💝
           </p>
         </div>
