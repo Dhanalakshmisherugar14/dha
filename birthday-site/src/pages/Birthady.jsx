@@ -1,5 +1,4 @@
 import React from 'react'
-import BirthdayText from "../compontes/BirthdayText";
 import LoveMessage from "../compontes/LoveMessage";
 import bg from "../assets/bg.jpg";
 import FloatingHearts from "../compontes/FloatingHearts";
@@ -28,7 +27,6 @@ export const Birthady = ({ onBack }) => {
         <div className="relative z-10 w-full flex flex-col items-center space-y-8">
             <Confetti />
             <FloatingHearts />
-            <BirthdayText />
             <LoveMessage />
             <FallingPetals />
         </div>

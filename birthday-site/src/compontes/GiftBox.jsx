@@ -24,17 +24,17 @@ const GiftBox = ({ onOpen }) => {
       <div className="text-center space-y-4 mb-12">
         <div className="flex items-center justify-center gap-2">
            <span className="text-xl animate-bounce-soft">✨</span>
-           <p className="text-lg text-gray-600 font-serif italic animate-bounce-soft">A special surprise awaits you</p>
+           <p className="text-lg text-red-600 font-serif italic animate-bounce-soft">A special surprise awaits you</p>
            <span className="text-xl animate-bounce-soft">✨</span>
         </div>
         
-        <h2 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-orange-400 to-yellow-500 drop-shadow-sm font-handwriting animate-bounce-soft">
+        <h2 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-yellow-400 to-yellow-500 drop-shadow-sm font-handwriting animate-bounce-soft">
           I have something
         </h2>
-        <h3 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-300 to-yellow-400 drop-shadow-sm font-handwriting animate-bounce-soft">
+        <h3 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-red-300 to-yellow-400 drop-shadow-sm font-handwriting animate-bounce-soft">
           special for you...
         </h3>
-        <p className="text-xl text-gray-700 font-serif italic flex items-center justify-center gap-2 animate-bounce-soft">
+        <p className="text-xl text-red-700 font-serif italic flex items-center justify-center gap-2 animate-bounce-soft">
           A little gift filled with all my love <span className="text-pink-500 animate-bounce-soft">💕</span>
         </p>
       </div>
@@ -128,10 +128,10 @@ const GiftBox = ({ onOpen }) => {
       {/* Click instruction */}
       {!isOpened && (
         <div className="mt-10 text-center">
-          <p className="font-serif text-3xl md:text-4xl text-pink-600 animate-bounce-soft">
+          <p className="font-serif text-3xl md:text-4xl text-blue-600 animate-bounce-soft">
             Tap to open your surprise!
           </p>
-          <p className="font-serif text-lg text-gray-600 mt-2 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
+          <p className="font-serif text-lg text-red-600 mt-2 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
             Something special awaits inside... 💝
           </p>
         </div>
